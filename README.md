@@ -1,8 +1,8 @@
-# `tailwind-config`
+# `react-tailwind-config`
 
-`tailwind-config` is a CLI tool designed to **simplify and speed up** the process of setting up **Tailwind CSS** in your Vite React projects. No more manual configuration—just one command to handle it all!
+`react-tailwind-config` is a CLI tool designed to **simplify and speed up** the process of setting up **Tailwind CSS** in your Vite React projects. No more manual configuration—just one command to handle it all!
 
-## ❤️ Why Use `tailwind-config`?
+## ❤️ Why Use `react-tailwind-config`?
 
 - **Time-Saving**: Automates the entire setup process of Tailwind CSS in a Vite React project.
 - **Hassle-Free**: No need to worry about missing steps or incorrect configurations.
@@ -50,26 +50,26 @@ npm create vite@latest todo-app -- --template react
 cd todo-app
 npm install
 ```
-#### Option 2: Now install `tailwind-config` in your project
+#### Option 2: Now install `react-tailwind-config` in your project
 ```bash
-npm install tailwind-config
+npm install react-tailwind-config
 ```
 
 ---
 
-### Step 3: Run `tailwind-config`
+### Step 3: Run `react-tailwind-config`
 
 Inside the root of your Vite React project, run the following command:
 
 ```bash
-npx tailwind-config
+npx react-tailwind-config
 ```
 
 ---
 
 ### Step 4: What Happens?
 
-Once you run the command, `tailwind-config` will:
+Once you run the command, `react-tailwind-config` will:
 1. **Install Dependencies**:
    Adds `tailwindcss`, `postcss`, and `autoprefixer` to your project’s `devDependencies`.
 
@@ -115,18 +115,18 @@ npm run dev
 
 ## 💡 Example Workflow
 
-Here’s how you can use `tailwind-config` in a fresh project:
+Here’s how you can use `react-tailwind-config` in a fresh project:
 
 ```bash
 # 1. Create a new Vite React project
 npm create vite@latest my-react-blog -- --template react
 cd my-react-blog
 
-# 2. Install tailwind-config
-npm install tailwind-config
+# 2. Install react-tailwind-config
+npm install react-tailwind-config
 
 # 3. Run the Tailwind CSS setup
-npx tailwind-config
+npx react-tailwind-config
 
 # 4. Start your project
 npm run dev
@@ -134,7 +134,7 @@ npm run dev
 
 ---
 
-## 💎 Benefits of `tailwind-config`
+## 💎 Benefits of `react-tailwind-config`
 
 ### 🌟 Perfect for Beginners:
 No need to learn Tailwind's manual setup process.
@@ -152,7 +152,7 @@ Saves time for developers who frequently start new Vite React projects and need 
 
 ## 📚 FAQs
 
-### **Q1: What does `tailwind-config` do?**
+### **Q1: What does `react-tailwind-config` do?**
 It automates the entire process of setting up Tailwind CSS in a Vite React project:
 - Installs required packages.
 - Generates `tailwind.config.js`.
@@ -175,9 +175,9 @@ Yes! You can use it in both personal and professional projects to streamline you
 
 ---
 
-## 💌 Love `tailwind-config`?
+## 💌 Love `react-tailwind-config`?
 
-If you enjoy using `tailwind-config`, give it a ⭐ on GitHub and share it with your fellow developers! 🚀
+If you enjoy using `react-tailwind-config`, give it a ⭐ on GitHub and share it with your fellow developers! 🚀
 
 ---
 
