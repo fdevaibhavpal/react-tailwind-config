@@ -1,0 +1,38 @@
+{
+  "name": "tailwind-config",
+  "version": "1.0.0",
+  "description": "Automate Tailwind CSS setup in a Vite React project.",
+  "main": "./dist/index.js",
+  "type": "module",
+  "bin": {
+    "tailwind-config": "./dist/index.js"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "vite",
+    "tailwindcss",
+    "automation",
+    "react",
+    "vite-plugin"
+  ],
+  "author": "Vaibhav Pal",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
+}

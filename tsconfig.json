@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext", 
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true // Generate .d.ts files
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
