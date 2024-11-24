@@ -1,9 +1,4 @@
-# `react-tailwind-config`
-
-This project was created and maintained by:
----
-**Vaibhav Pal**  
-[Software Developer]
+# `React Tailwind Config`
 
 `react-tailwind-config` is a CLI tool designed to **simplify and speed up** the process of setting up **Tailwind CSS** in your Vite React projects. No more manual configuration—just one command to handle it all!
 
@@ -190,11 +185,15 @@ Enjoy building beautiful, responsive apps with **Tailwind CSS** and **Vite React
 
 ---
 
-## 📞 Contact the Author
+### 📞 Contact the Author
 
-If you have any questions, issues, or suggestions, feel free to reach out to me:  
-**Email**: fdevaibhavpal@gmail.com
-**GitHub**: [fdevaibhavpal](https://github.com/fdevaibhavpal)
+If you have any questions, issues, or suggestions, feel free to reach out to me: 
+
+`This project was created and maintained by:`
+- **Vaibhav Pal**  
+- **Profile**: Software Developer
+- **Email**: fdevaibhavpal@gmail.com
+- **GitHub**: [fdevaibhavpal](https://github.com/fdevaibhavpal)
 
 ---
 
