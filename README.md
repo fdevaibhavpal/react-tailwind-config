@@ -5,9 +5,7 @@
 **Preview After Setup**
 After successfully setting up Tailwind CSS using react-tailwind-config, this is how your app will look:
 
-![Preview of React Tailwind Config Setup](https://github.com/fdevaibhavpal/react-tailwind-config/main/assets/preview.png)
-
-
+![Preview of React Tailwind Config Setup](https://github.com/fdevaibhavpal/react-tailwind-config/blob/main/assets/preview.png)
 
 ## Why Use `react-tailwind-config`?
 
