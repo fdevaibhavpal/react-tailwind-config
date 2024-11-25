@@ -1,6 +1,6 @@
 {
   "name": "react-tailwind-config",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "Automate Tailwind CSS setup in a Vite React project.",
   "main": "./dist/index.js",
   "type": "module",
@@ -25,6 +25,7 @@
   ],
   "author": "Vaibhav Pal",
   "license": "MIT",
+  "repository": "https://github.com/fdevaibhavpal/react-tailwind-config",
   "dependencies": {
     "chalk": "^5.3.0",
     "execa": "^8.0.1",
@@ -36,5 +37,10 @@
     "@types/node": "^22.9.1",
     "typescript": "^5.6.3"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "enginesStrict": false
 }
