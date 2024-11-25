@@ -1,6 +1,6 @@
 {
   "name": "react-tailwind-config",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Automate Tailwind CSS setup in a Vite React project.",
   "main": "./dist/index.js",
   "type": "module",
@@ -35,5 +35,6 @@
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.9.1",
     "typescript": "^5.6.3"
-  }
+  },
+  "enginesStrict": false
 }

@@ -2,6 +2,13 @@
 
 `react-tailwind-config` is a CLI tool designed to **simplify and speed up** the process of setting up **Tailwind CSS** in your Vite React projects. No more manual configuration—just one command to handle it all!
 
+**Preview After Setup**
+After successfully setting up Tailwind CSS using react-tailwind-config, this is how your app will look:
+
+![Preview of React Tailwind Config Setup](https://github.com/fdevaibhavpal/react-tailwind-config/main/assets/preview.png)
+
+
+
 ## Why Use `react-tailwind-config`?
 
 - **Time-Saving**: Automates the entire setup process of Tailwind CSS in a Vite React project.
@@ -69,7 +76,7 @@ npx react-tailwind-config
 
 ### Step 4: What Happens?
 
-Once you run the command, `react-tailwind-config` will:
+Once you run the command, `npx react-tailwind-config` will:
 1. **Install Dependencies**:
    Adds `tailwindcss`, `postcss`, and `autoprefixer` to your project’s `devDependencies`.
 
@@ -200,5 +207,5 @@ If you have any questions, issues, or suggestions, feel free to reach out to me:
 ### License
 
 This project is licensed under the **MIT License**.  
-You are free to use, modify, and distribute this project, provided proper credit is given to the original author. For more details, see the [LICENSE](./LICENSE) file included in this repository.
+You are free to use, modify, and distribute this project, provided proper credit is given to the original author. For more details, see the [LICENSE](./LICENSE) file included in this repository  [react-tailwind-config](https://github.com/fdevaibhavpal/react-tailwind-config).
 

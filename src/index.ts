@@ -5,7 +5,7 @@ import fs from "fs-extra";
 import path from "path";
 import chalk from "chalk";
 import ora from "ora";
-
+import { appTemplate } from "./appTemplate";
 const configureTailwind = async (): Promise<void> => {
   const spinner = ora();
   try {
@@ -68,7 +68,27 @@ module.exports = {
       spinner.succeed(chalk.green("Created src/index.css with Tailwind directives!"));
     }
 
-    spinner.succeed(chalk.green("Tailwind CSS setup completed successfully! You can now run your app with:"));
+        // Overwrite or create App.tsx or App.js with the card content
+        const appFilePathTs = path.resolve(projectRoot, "src/App.tsx");
+        const appFilePathJs = path.resolve(projectRoot, "src/App.js");
+    
+        if (fs.existsSync(appFilePathTs)) {
+          fs.writeFileSync(appFilePathTs, appTemplate.trim(), "utf-8");
+          spinner.succeed(chalk.green("Success! We've updated App.tsx with a demo card to showcase Tailwind CSS."));
+        } else if (fs.existsSync(appFilePathJs)) {
+          fs.writeFileSync(appFilePathJs, appTemplate.trim(), "utf-8");
+          spinner.succeed(chalk.green("Success! We've updated App.jsx with a demo card to showcase Tailwind CSS."));
+        } else {
+          spinner.warn(
+            chalk.yellow(
+              "Neither App.tsx nor App.js was found. Please ensure your React project is initialized properly."
+            )
+          );
+        }
+
+
+
+    spinner.succeed(chalk.green("\n Tailwind CSS setup completed successfully!" + "\n You can now run your app with:"));
     console.log("\n" + chalk.cyan("npm run dev") + "\n");
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
